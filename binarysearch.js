@@ -4,10 +4,18 @@ if(array.length <=1){
 }
 let middle =math.floor(array.length/2);
 let leftindex=array.slice(0,middle);
+
 let rightindex=array.slice(middle);
 return merge(mergeSort(leftindex),mergeSort(rightindex));
+// return divideArray(left and right)
 
 
+// Recurrsion function calls itself
+// mergeSort- check if the array exists
+// empty array.push(left.shift)
+// empty array.push(left.shift)
+
+//empty array
 }
 function merge(leftindex,rightindex){
     let array=[];
@@ -125,4 +133,8 @@ function mergeSort(arr3){
     let arr3=[1,4,78,2,67,3]
     let target3=34
     console.log(get(arr3,target3))
+
+
+    // divide the lenght 
+    // let middle=math.floo
     
